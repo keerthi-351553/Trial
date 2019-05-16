@@ -3,7 +3,7 @@
 const express = require("express");
 const router = express.Router();
 
-const varTitle = process.env.TITLE || "Sample NodeJs";
+const varTitle = process.env.TITLE || "Sample NodeJs deployed by Atlassian Blueprint";
 const varMessage = process.env.MESSAGE || "Hello world!";
 
 /* GET home page. */
