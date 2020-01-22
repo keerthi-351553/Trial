@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "start": "node src",
-    "forever": "forever start src"
+    "forever": "forever -a --uid ossApp start src"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
